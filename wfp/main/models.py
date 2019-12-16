@@ -6,8 +6,9 @@ from django.utils import timezone
 from .helpers import GENDERS, AVAILABLE_REGIONS
 
 
-class LifeExpectancy(models.model):
+class LifeExpectancy(models.Model):
     """ This model persist the from the service to the database"""
+
     created = models.DateTimeField(auto_now_add=True)
     updated = models.DateTimeField(auto_now=True)
     gho = models.CharField(max_length=220)

@@ -2,107 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="368d1f2f-1321-44fc-b33c-9d5ec2a09269" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/corsheaders/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/corsheaders/checks.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/corsheaders/conf.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/corsheaders/defaults.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/corsheaders/middleware.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/corsheaders/signals.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/django_cors_headers-3.2.0.dist-info/INSTALLER" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/django_cors_headers-3.2.0.dist-info/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/django_cors_headers-3.2.0.dist-info/METADATA" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/django_cors_headers-3.2.0.dist-info/RECORD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/django_cors_headers-3.2.0.dist-info/WHEEL" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/django_cors_headers-3.2.0.dist-info/top_level.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/django_filter-2.2.0.dist-info/INSTALLER" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/django_filter-2.2.0.dist-info/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/django_filter-2.2.0.dist-info/METADATA" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/django_filter-2.2.0.dist-info/RECORD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/django_filter-2.2.0.dist-info/WHEEL" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/django_filter-2.2.0.dist-info/top_level.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/django_filters/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/django_filters/compat.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/django_filters/conf.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/django_filters/constants.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/django_filters/exceptions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/django_filters/fields.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/django_filters/filters.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/django_filters/filterset.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/django_filters/locale/be/LC_MESSAGES/django.mo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/django_filters/locale/be/LC_MESSAGES/django.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/django_filters/locale/cs/LC_MESSAGES/django.mo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/django_filters/locale/cs/LC_MESSAGES/django.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/django_filters/locale/da/LC_MESSAGES/django.mo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/django_filters/locale/da/LC_MESSAGES/django.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/django_filters/locale/de/LC_MESSAGES/django.mo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/django_filters/locale/de/LC_MESSAGES/django.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/django_filters/locale/el/LC_MESSAGES/django.mo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/django_filters/locale/el/LC_MESSAGES/django.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/django_filters/locale/es_AR/LC_MESSAGES/django.mo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/django_filters/locale/es_AR/LC_MESSAGES/django.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/django_filters/locale/es_ES/LC_MESSAGES/django.mo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/django_filters/locale/es_ES/LC_MESSAGES/django.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/django_filters/locale/fr/LC_MESSAGES/django.mo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/django_filters/locale/fr/LC_MESSAGES/django.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/django_filters/locale/pl/LC_MESSAGES/django.mo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/django_filters/locale/pl/LC_MESSAGES/django.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/django_filters/locale/pt_BR/LC_MESSAGES/django.mo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/django_filters/locale/pt_BR/LC_MESSAGES/django.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/django_filters/locale/ru/LC_MESSAGES/django.mo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/django_filters/locale/ru/LC_MESSAGES/django.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/django_filters/locale/sk/LC_MESSAGES/django.mo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/django_filters/locale/sk/LC_MESSAGES/django.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/django_filters/locale/uk/LC_MESSAGES/django.mo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/django_filters/locale/uk/LC_MESSAGES/django.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/django_filters/locale/zh_CN/LC_MESSAGES/django.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/django_filters/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/django_filters/rest_framework/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/django_filters/rest_framework/backends.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/django_filters/rest_framework/filters.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/django_filters/rest_framework/filterset.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/django_filters/templates/django_filters/rest_framework/crispy_form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/django_filters/templates/django_filters/rest_framework/form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/django_filters/templates/django_filters/widgets/multiwidget.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/django_filters/utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/django_filters/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/django_filters/widgets.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wfp-client/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wfp-client/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wfp-client/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wfp-client/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wfp-client/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wfp-client/public/logo192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wfp-client/public/logo512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wfp-client/public/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wfp-client/public/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wfp-client/src/App.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wfp-client/src/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wfp-client/src/App.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wfp-client/src/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wfp-client/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wfp-client/src/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wfp-client/src/serviceWorker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wfp-client/src/setupTests.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wfp-client/yarn.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wfp/main/filters.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wfp/main/management/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wfp/main/management/commands/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wfp/main/management/commands/fetch_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wfp/main/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wfp/main/payload.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wfp/main/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitingnore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitingnore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wfp/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/wfp/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wfp/main/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/wfp/main/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wfp/main/helpers.py" beforeDir="false" afterPath="$PROJECT_DIR$/wfp/main/helpers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wfp/main/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/wfp/main/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wfp/main/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/wfp/main/serializers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wfp/main/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/wfp/main/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wfp/wfp/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/wfp/wfp/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wfp/wfp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/wfp/wfp/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wfp-client/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wfp-client/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wfp-client/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wfp-client/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wfp-client/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wfp-client/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wfp-client/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wfp-client/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wfp-client/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wfp-client/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wfp-client/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wfp-client/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wfp-client/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wfp-client/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wfp-client/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wfp-client/src/serviceWorker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wfp-client/src/setupTests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wfp-client/yarn.lock" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

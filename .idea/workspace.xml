@@ -4,6 +4,12 @@
     <list default="true" id="368d1f2f-1321-44fc-b33c-9d5ec2a09269" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wfp/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/wfp/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wfp/main/filters.py" beforeDir="false" afterPath="$PROJECT_DIR$/wfp/main/filters.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wfp/main/management/commands/fetch_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/wfp/main/management/commands/fetch_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wfp/main/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/wfp/main/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wfp/main/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/wfp/main/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wfp/main/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/wfp/main/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +23,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1V41CpOzlU173ZZqkaey1YC986b" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -29,6 +38,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -52,7 +62,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1576497428838</updated>
-      <workItem from="1576497435691" duration="7090000" />
+      <workItem from="1576497435691" duration="9590000" />
+      <workItem from="1576507141470" duration="1916000" />
     </task>
     <servers />
   </component>
@@ -60,9 +71,17 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="339" y="203" key="com.intellij.ide.util.TipDialog" timestamp="1576497440281">
+    <state x="386" y="167" width="583" height="423" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1576509033132">
       <screen x="0" y="27" width="1366" height="698" />
     </state>
-    <state x="339" y="203" key="com.intellij.ide.util.TipDialog/0.27.1366.698@0.27.1366.698" timestamp="1576497440281" />
+    <state x="386" y="167" width="583" height="423" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1366.698@0.27.1366.698" timestamp="1576509033132" />
+    <state x="172" y="27" width="1012" height="698" key="SettingsEditor" timestamp="1576507069275">
+      <screen x="0" y="27" width="1366" height="698" />
+    </state>
+    <state x="172" y="27" width="1012" height="698" key="SettingsEditor/0.27.1366.698@0.27.1366.698" timestamp="1576507069275" />
+    <state x="339" y="203" key="com.intellij.ide.util.TipDialog" timestamp="1576507143642">
+      <screen x="0" y="27" width="1366" height="698" />
+    </state>
+    <state x="339" y="203" key="com.intellij.ide.util.TipDialog/0.27.1366.698@0.27.1366.698" timestamp="1576507143642" />
   </component>
 </project>

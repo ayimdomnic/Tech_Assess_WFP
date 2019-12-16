@@ -15,9 +15,7 @@ def fetch_data():
             'gender': fact['dim']['SEX'],
             'number_of_years': fact['Value']
         })
-        LifeExpectancy.objects.update_or_create(
-            **data
-        )
+        LifeExpectancy.objects.update_or_create(data)
 
 
  class Command(BaseCommand):

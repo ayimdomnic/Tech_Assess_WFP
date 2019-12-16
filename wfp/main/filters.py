@@ -13,6 +13,7 @@ class DataFilter(filters.FilterSet):
             'region': ['exact'],
             'gho': ['exact'],
             'gender': ['exact'],
+            'number_of_years': ['lte', 'gte'],
             'year': ['lte', 'gte']
         }
 

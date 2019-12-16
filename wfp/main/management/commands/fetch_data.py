@@ -1,14 +1,16 @@
 from django.core.management import BaseCommand
-from main.helpers import AVAILABLE_REGIONS
+from main.helpers import DEFAULT_DATA
 from main.models import LifeExpectancy
+import logging
 
 
 def fetch_data():
-    content = AVAILABLE_REGIONS['fact']
+    content = DEFAULT_DATA["fact"]
+
     for item in content:
         data = dict()
         data.update({
-            'GHO': item['dim']['GHO'],
+            'gho': item['dim']['GHO'],
             'region': item['dim']['REGION'],
             'year': item['dim']['YEAR'],
             'gender': item['dim']['SEX'],
@@ -28,3 +30,4 @@ class Command(BaseCommand):
             self.stdout.write(self.style.SUCCESS('Data Loaded Successfully!'))
         except Exception:
             self.stdout.write(self.style.ERROR('Error encountered while loading data'))
+            raise Exception

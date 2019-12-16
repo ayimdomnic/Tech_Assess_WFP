@@ -20,4 +20,4 @@ GENDERS = [
 
 file = open(settings.DATA_FILE, 'r')
 
-DEFAULT = json.loads(file.read())
+DEFAULT_DATA = json.loads(file.read())

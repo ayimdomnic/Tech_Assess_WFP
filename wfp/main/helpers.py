@@ -1,6 +1,6 @@
 import json
 
-from django.conf import settings;
+from django.conf import settings
 
 AVAILABLE_REGIONS = [
     ('Global', 'Global'),
@@ -20,4 +20,4 @@ GENDERS = [
 
 file = open(settings.DATA_FILE, 'r')
 
-DEFAULT = json.loads(file.read())
+DEFAULT_DATA = json.loads(file.read())

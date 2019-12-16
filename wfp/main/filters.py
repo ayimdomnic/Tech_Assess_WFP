@@ -3,15 +3,16 @@ from django_filters import rest_framework as filters
 
 from .models import LifeExpectancy
 
+
 class DataFilter(filters.FilterSet):
-    """ Base FIlter to handle Data Filtering"""
+    """ Base Filter to handle Data Filtering"""
+
     class Meta:
         model = LifeExpectancy
         fields = {
             'region': ['exact'],
             'gho': ['exact'],
             'gender': ['exact'],
-            'number_of_years': ['lte', 'gte'],
             'year': ['lte', 'gte']
         }
 

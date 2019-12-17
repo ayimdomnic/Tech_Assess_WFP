@@ -1,7 +1,4 @@
-import React, { Component } from "react";
-import { connect} from 'react-redux';
-import queryString from 'query-string';
-import { AppActions } from "../store/action";
+import React from "react";
 import { Card , CardHeader, CardTitle, CardBody, Table} from "reactstrap";
 import './Expectancy.css';
 import LifeExpectancyModel from "../models/model";

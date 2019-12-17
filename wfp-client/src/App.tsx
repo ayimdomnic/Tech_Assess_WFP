@@ -1,12 +1,9 @@
-import React, {Component} from 'react';
-import  ReactDom  from 'react-dom';
+import React from 'react';
+import { HashRouter as Router, Route, Link, Switch} from "react-router-dom";
 import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink, Container, Row, Col, Jumbotron, Button } from 'reactstrap';
-import { createStore, applyMiddleware} from "redux";
-import { mainReducer, defaultState } from "./store/reducer";
-import thunk from "redux-thunk";
 import 'bootstrap/dist/css/bootstrap.min.css'
+import Expectancy from "./pages/Expectancy";
 
-const store = createStore(mainReducer, defaultState(), applyMiddleware(thunk));
 export interface AppProps {
 }
 
@@ -25,14 +22,16 @@ export default class App extends React.Component<AppProps, AppState> {
                     <NavbarBrand href="/"> Wfp Task</NavbarBrand>
                     <NavbarToggler onClick={this.toggle} />
                     <Collapse navbar>
-                        <Nav className="ml-auto" navbar>
+                        <Router>
+                            <Nav className="ml-auto" navbar>
                             <NavItem>
-                                <NavLink href="/"> Data </NavLink>
-                            </NavItem>
-                            <NavItem>
-                                <NavLink href="/about"> About</NavLink>
+                                <Link  className="nav-link" to="/data"> Data </Link>
                             </NavItem>
                         </Nav>
+                            <Switch>
+                                <Route exact path="data" component={Expectancy} />
+                            </Switch>
+                        </Router>
                     </Collapse>
                 </Navbar>
                 <Jumbotron>
@@ -41,7 +40,7 @@ export default class App extends React.Component<AppProps, AppState> {
                             <Col>
                                 <h1>Life Expectancy Wfp</h1>
                                 <p>
-
+                                    <a className="btn btn-primary" href="/data" > View Data</a>
                                 </p>
                             </Col>
                         </Row>

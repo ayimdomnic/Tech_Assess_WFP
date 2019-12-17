@@ -21,5 +21,12 @@
   },
   "include": [
     "src"
+  ],
+  "types": [
+    "node",
+    "webpack",
+    "react",
+    "react-dom",
+    "reactstrap"
   ]
 }

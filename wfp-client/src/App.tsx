@@ -1,24 +1,51 @@
-import React from 'react';
+import React, {Component} from 'react';
 import  ReactDom  from 'react-dom';
+import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink, Container, Row, Col, Jumbotron, Button } from 'reactstrap';
 import { createStore, applyMiddleware} from "redux";
 import { mainReducer, defaultState } from "./store/reducer";
 import thunk from "redux-thunk";
-import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 const store = createStore(mainReducer, defaultState(), applyMiddleware(thunk));
 
-const App: React.FC = () => {
-  return (
+class App extends React.Component {
+    constructor(props: any) {
+        super(props);
+        this.toggle = this.toggle.bind(this);
+        //this.state = { isOpen: false };
+    }
+    toggle() {
+        //this.setState({ isOpen: !this.state.isOpen});
+    }
+    render() {
+        return (
+            <div className="container">
+                <Navbar color="inverse" light expand="md">
+                    <NavbarBrand href="/">Life Expectancy </NavbarBrand>
+                    <NavbarToggler onClick={this.toggle}/>
+                    <Collapse navbar>
+                        <Nav className="ml-auto" navbar>
+                            <NavItem>
+                                <NavLink href="">Data</NavLink>
+                            </NavItem>
+                        </Nav>
+                    </Collapse>
+                </Navbar>
+                <Jumbotron>
+                    <Container>
+                        <Row>
+                            <Col>
+                                <h1> Welcome to the WFP </h1>
+                                <p>
 
-     <header className="wfp-header-init fixed">
-        <div className="wfp--grid wfp--wrapper">
-            <div className="wfp-u-3 wfp-u-md-1-3 header--container">
-                <h3 className="header-title">Life Expectancy</h3>
+                                </p>
+                            </Col>
+                        </Row>
+                    </Container>
+                </Jumbotron>
             </div>
-        </div>
-     </header>
-
-  );
+        )
+    }
 }
 
 export default App;

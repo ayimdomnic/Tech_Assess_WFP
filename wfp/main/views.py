@@ -12,8 +12,8 @@ from .serializers import DataSerializer
 class DataViewSet(viewsets.ReadOnlyModelViewSet):
     """ A visual endpoint to the data fetched"""
     queryset = LifeExpectancy.objects.filter(
-        gender=['Male', 'Female'],
-        gho=[
+        gender__in=['Male', 'Female'],
+        gho__in=[
             'Life expectancy at age 60 (years)',
             'Life expectancy at birth (years)'
         ]

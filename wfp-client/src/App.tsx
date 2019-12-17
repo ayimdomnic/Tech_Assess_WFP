@@ -7,26 +7,30 @@ import thunk from "redux-thunk";
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 const store = createStore(mainReducer, defaultState(), applyMiddleware(thunk));
+export interface AppProps {
+}
 
-class App extends React.Component {
-    constructor(props: any) {
-        super(props);
-        this.toggle = this.toggle.bind(this);
-        //this.state = { isOpen: false };
-    }
+export interface AppState {
+    isOpen: boolean
+}
+export default class App extends React.Component<AppProps, AppState> {
     toggle() {
-        //this.setState({ isOpen: !this.state.isOpen});
+
     }
+
     render() {
         return (
             <div className="container">
                 <Navbar color="inverse" light expand="md">
-                    <NavbarBrand href="/">Life Expectancy </NavbarBrand>
-                    <NavbarToggler onClick={this.toggle}/>
+                    <NavbarBrand href="/"> Wfp Task</NavbarBrand>
+                    <NavbarToggler onClick={this.toggle} />
                     <Collapse navbar>
                         <Nav className="ml-auto" navbar>
                             <NavItem>
-                                <NavLink href="">Data</NavLink>
+                                <NavLink href="/"> Data </NavLink>
+                            </NavItem>
+                            <NavItem>
+                                <NavLink href="/about"> About</NavLink>
                             </NavItem>
                         </Nav>
                     </Collapse>
@@ -35,7 +39,7 @@ class App extends React.Component {
                     <Container>
                         <Row>
                             <Col>
-                                <h1> Welcome to the WFP </h1>
+                                <h1>Life Expectancy Wfp</h1>
                                 <p>
 
                                 </p>
@@ -47,5 +51,3 @@ class App extends React.Component {
         )
     }
 }
-
-export default App;

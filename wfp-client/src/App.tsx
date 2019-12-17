@@ -4,22 +4,15 @@ import './App.css';
 
 const App: React.FC = () => {
   return (
-    <div className="App">
-      <header className="wfp-header-ext">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+
+     <header className="wfp-header-init fixed">
+        <div className="wfp--grid wfp--wrapper">
+            <div className="wfp-u-3 wfp-u-md-1-3 header--container">
+                <h1 className="header-title">Life Expectancy</h1>
+            </div>
+        </div>
+     </header>
+
   );
 }
 

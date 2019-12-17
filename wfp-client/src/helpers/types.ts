@@ -3,7 +3,7 @@ export type ApiHeader = {
     value: string;
 }
 
-export type KeyValue<T, U> {
+export type KeyValue<T, U> = {
     key: T;
     value: U;
 }

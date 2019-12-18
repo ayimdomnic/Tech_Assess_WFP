@@ -40,7 +40,7 @@ $ pipenv install && pipenv shell
 $ pip install -r requirements.txt
 ```
 
-4. Configure Redis configuration in `wfp/wfp/settings.py`
+4. Configure Redis configuration in `wfp/settings.py`
 
 5. Start the Django API
 ```

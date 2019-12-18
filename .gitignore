@@ -1,4 +1,4 @@
 wfp-client/node_modules/
 .idea/
-
+.vscode/
 env/

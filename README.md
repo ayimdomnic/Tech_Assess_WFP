@@ -2,7 +2,7 @@
 
 # WFP Assessment Task 
 
-This repository contains the code for the [API](https://lifeexpectancy.ayimdomnic.now.sh) and the [Web](https://wfp-client.ayimdomnic.now.sh/). 
+This repository contains the code for the [API](http://wfp.wayapay.co/) and the [Web](https://wfp-client.ayimdomnic.now.sh/). 
 
 ## Getting Started
 

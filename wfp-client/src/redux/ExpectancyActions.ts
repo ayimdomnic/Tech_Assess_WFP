@@ -20,7 +20,7 @@ export const getAllCharacters: ActionCreator<
 > = () => {
   return async (dispatch: Dispatch) => {
     try {
-      const response = await axios.get('http://localhost:8000/data/');
+      const response = await axios.get('http://174.138.57.140:8000/data/');
       dispatch({
         data: response.data.results,
         type: ExpectancyActionTypes.GET_ALL,

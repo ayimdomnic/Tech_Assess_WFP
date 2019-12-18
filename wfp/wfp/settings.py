@@ -26,7 +26,7 @@ SECRET_KEY = '6*gn_ikp5_-z(l^$m2_re!eanerhdjg*5wo3qp3g$x@_-pdvgj'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['.now.sh']
+ALLOWED_HOSTS = ['.now.sh', 'localhost', '127.0.0.1']
 CORS_ORIGIN_ALLOW_AL = True
 
 CORS_ALLOW_METHODS = [
